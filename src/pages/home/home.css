@@ -1,0 +1,17 @@
+#homeContainer {
+  top: 20%;
+  left: 45%;
+  width: 600px;
+  height: 400px;
+  position: fixed;
+  background-color: red;
+}
+
+#homePageimage{
+  top: 15%;
+  left: 45%;
+  width: 600px;
+  height: 700px;
+  position: fixed;
+  background-color: red;
+}

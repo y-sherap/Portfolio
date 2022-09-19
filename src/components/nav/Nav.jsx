@@ -8,7 +8,7 @@ const Nav = () => {
       <header>
         <div id="navContainer">
           <Link to = '/' id="homeTitle">YANGTSEL SHERAP</Link>
-          <Link to = 'about' id="aboutTitle">CV</Link>
+          <Link to = '/info' id="aboutTitle">ABOUT</Link>
           <p id="navBarProjectTitle">PROJECTS</p>
           <div id="projects">
           <div id="communalcare">

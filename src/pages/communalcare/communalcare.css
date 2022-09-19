@@ -1,0 +1,32 @@
+#ccContainer {
+  top: 20%;
+  left: 45%;
+  width: 600px;
+  height: 400px;
+  position: fixed;
+  background-color: red;
+  border-color: red;
+  border: 10px;
+}
+#ccPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#homePageText{
+  top: 62%;
+  left: 45%;
+  width: 600px;
+  height: 400px;
+  position: fixed;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.3em;
+}
+
+#ccPic{
+  width: 200;
+  height: 400px;
+  top: 40%;
+}
