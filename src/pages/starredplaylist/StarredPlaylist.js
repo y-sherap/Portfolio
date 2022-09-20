@@ -1,14 +1,18 @@
+import './starred.css'
+
 const StarredPlaylist = () => {
   
   return (
-    <div id="spPage">
-      <div id="spContainer">
-        <div>
-          <div>sup</div>
+    <div id="Page">
+      <div id="Container">
+        <img id="Pic" src="https://i.imgur.com/jVhiSRq.png://imgur.com/a/B05lIjB" alt="picture" />
+      <div id="Text">
+          <p>Starred is a playlist curation PERN stack app built for users interested in discovering new music.</p>
+          <p>Through this app, users are able to create an account, create playlists ,search for songs through Spotify's API to add to their playlist, and follow any playlists created by other users.</p>
+
         </div>
-      </div>
-      <div id="spText">
-      I created this game during the third week of my Software Engineering Immersive course through General Assembly. Prior to enrolling in this program, I had little to no experience with HTML, CSS, and Javascript. I wanted to use this project to gain a foundational understanding of functions, loops, and event listeners, all of which have been incorporated into my code.        </div>
+        <button>Live Demo</button>
+        </div>
     </div>
   )
 }

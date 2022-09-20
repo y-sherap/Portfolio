@@ -1,32 +1,72 @@
-#ccContainer {
-  top: 20%;
-  left: 45%;
-  width: 600px;
-  height: 400px;
+#Page {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 400px;
+  align-self: flex-start;
+  top: 16%;
   position: fixed;
-  background-color: red;
-  border-color: red;
-  border: 10px;
 }
-#ccPage {
+
+#Container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* background-color: red; */
+  width: 50%;
+  height: 80%;
 }
 
-#homePageText{
-  top: 62%;
-  left: 45%;
-  width: 600px;
-  height: 400px;
-  position: fixed;
+#Pic{
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  /* border-left: yellow;
+  border: 10px, solid; */
+}
+
+#Text{
+  max-width: 100%;
   text-align: justify;
   text-justify: inter-word;
   font-size: 1.3em;
 }
 
-#ccPic{
-  width: 200;
-  height: 400px;
-  top: 40%;
-}
+button{
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  button:after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  button:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-52 {
+      padding: 13px 50px 13px;
+    }
+  }

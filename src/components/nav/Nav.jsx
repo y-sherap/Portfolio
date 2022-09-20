@@ -18,7 +18,7 @@ const Nav = () => {
               <Link to = '/connectfour'>> CONNECT FOUR</Link> 
             </div>
             <div id="monkeypoxTitle">
-              <Link to = '/monkeypox_vaccination_sites' >> MONKEYPOX VACCINATION SITES</Link>
+              <Link to = '/monkeypox_vaccination_sites' >> MONKEYPOX VAX SITES</Link>
             </div>
             <div id="starredTitle">
               <Link to = '/starred'>> STARRED</Link>
