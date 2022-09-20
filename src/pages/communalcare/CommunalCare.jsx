@@ -1,4 +1,5 @@
 import './communalcare.css'
+import { Link } from 'react'
 
 const CommunalCare = () => {
   

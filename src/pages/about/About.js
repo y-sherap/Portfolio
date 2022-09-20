@@ -18,7 +18,7 @@ const About = () => {
         </div>
         <div>
           <p id="biographyText">
-                      I am a front-end developer for user-oriented digital products with 3+ years of prior experience in product management. My work spans creating feature-rich user interfaces within the healthtech and media spaces and helping companies translate broad market requirements into functional products from ideation to execution. I am interested in the confluence between technology and design and how these forces shape the world around us. 
+                      I am a software engineer for user-oriented digital products with 3+ years of prior experience in product management. My work spans creating feature-rich user interfaces within the healthtech and media spaces and helping companies translate broad market requirements into functional products from ideation to execution. I am interested in the confluence between technology and design and how these forces shape the world around us. 
           </p>
  
         </div>
