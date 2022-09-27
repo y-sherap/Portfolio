@@ -23,7 +23,7 @@ const About = () => {
  
         </div>
         <div id="resumeBody">
-
+          <p>ADD RESUME HERE / SKILLS</p>
         </div>
       </div>
 
