@@ -1,0 +1,59 @@
+#portfolioPage {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+}
+
+#portfolioHeading {
+  font-size: 2em;
+  margin-bottom: 4%;
+}
+
+#selectedWorkTitle {
+  font-size: 1em;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20%;
+  border-bottom: solid, green, 10px;
+}
+
+.portfolioProjectTitle {
+  font-size: 1.5em;
+  margin-top: -5%;
+}
+
+.projectContainerLeft{
+  width: 20%;
+}
+
+.projectContainerRight {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  width: 80%;
+}
+
+.projectDescription {
+  font-size: 1.1em;
+  width: 90%;
+  text-align: justify;
+}
+
+.projectContainerLinks{
+  display: flex;
+  flex-direction: column;
+}
+
+#Pic{
+  width: 20vw;
+  height: 20vh;
+  }
+
+#buttons{
+  display: flex;
+  flex-direction: row;
+}

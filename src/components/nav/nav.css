@@ -1,24 +1,10 @@
 #navbar {
   display: flex;
-  flex-direction: column;
-  background-color: rgb(255, 255, 255);
-  width: 20vw;
-  height: 100vh;
-  border-right: black solid;
-  border-width: thin;
-}
-
-#navContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-family: 'Raleway', sans-serif;
-}
-
-#projects {
-  margin-left: 5%;
-  flex-wrap: wrap;
-  text-decoration: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 1.2em;
 }
 
 #navContainer a:hover {
@@ -30,60 +16,20 @@
 }
 
 #homeTitle {
-  font-size: 2em;
-  color:blue;
   text-decoration:none;
-  margin-bottom: 10px;
+  font-size: .8em;
 }
 
-#aboutTitle {
-  font-size: 2em;
-  color:blue;
-  text-decoration:none;
+#aboutTitle, #portfolioTitle {
+  font-size: .8em;
+  margin-right: 6%;
 }
 
-#navBarProjectTitle {
-  font-size: 2em;
-  color:blue;
-  margin-bottom: 10px;
-  
+#resumeTitle {
+  font-size: .8em;
 }
 
 a:-webkit-any-link {
   text-decoration: none;
-  color: blue;
-
-  /* color:rgb(181, 181, 208); */
-}
-
-#communalcare {
-  font-size: 1.5em;
-  color:blue;
-  text-decoration:none;
-  margin-bottom: 15px;
-  text-decoration: none;
-}
-
-#monkeypoxTitle {
-  font-size: 1.5em;
-  color:blue;
-  text-decoration:none;
-  margin-bottom: 15px;
-  text-decoration: none;
-}
-
-#starredTitle {
-  font-size: 1.5em;
-  color:blue;
-  text-decoration:none;
-  margin-bottom: 15px;
-  text-decoration: none;
-}
-
-#connectfourTitle {
-  font-size: 1.5em;
-  color:blue;
-  text-decoration:none;
-  margin-bottom: 15px;
-  text-decoration: none;
+  color:rgb(0, 0, 0);
 }

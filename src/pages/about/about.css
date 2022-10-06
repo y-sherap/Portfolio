@@ -1,20 +1,31 @@
 #aboutPage {
-  top: 2%;
-  left: 22%;
-  position: fixed;
+  height:max-content;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+#bioContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+#imageBio{
+  width: 80%;
+  height: 80%;
+  margin-right: -10%;
+}
+
+#biographyText{
+  text-align: justify;
   font-size: 1.5em;
+  margin-right: 4%;
+  margin-top: -1.9%;
+  width: 70%;
 }
 
-#contactTitle, #biographyTitle{
-  margin-bottom: 2px;
-}
 
-#email, #biographyText{
+
+#email{
   margin-top: 0;
 }
-
-#contact{
-  margin-bottom: 20px;
-}
-
-
