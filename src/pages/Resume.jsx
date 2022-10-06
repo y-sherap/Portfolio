@@ -4,7 +4,7 @@ import pdfFile from '../resume.pdf'
 const Resume = () => {
 
   return (
-    <div>
+    <div id="resume">
       <Document file={pdfFile}>
         <Page pageNumber={1} />
       </Document>

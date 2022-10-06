@@ -2,9 +2,11 @@ html {
   width: 99vw;
   height: 99vh;
   font-family: 'Raleway', sans-serif;
-
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;1,200&display=swap');
+#resume{
+background-color: black;
+color: white;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;1,200&display=swap');

@@ -8,17 +8,6 @@ const Portfolio = () => {
           <div id="portfolioHeading">
             <div>Full Stack Applications</div>
           </div>
-            {/* <div id="selectedWork">
-              <div id="selectedWorkTitle">
-                <div>Selected Work</div>
-              </div> */}
-              {/* <div id="blurbProjects">
-                <div>Communal Care</div>
-                <div>MonkeyPox Vaccination Sites</div>
-                <div>Starred</div>
-                <div>Communal Care</div>
-              </div> */}
-            {/* </div> */}
         </div>
         <div id="allProjects">
           <div className="projectContainer">
@@ -43,7 +32,6 @@ const Portfolio = () => {
                 </div>
             </div>
           </div>
-
           <div className="projectContainer">
             <div className="projectContainerLeft">
               <div className="portfolioProjectTitle">
@@ -66,7 +54,6 @@ const Portfolio = () => {
                 </div>
             </div>
           </div>
-
           <div className="projectContainer">
             <div className="projectContainerLeft">
               <div className="portfolioProjectTitle">
@@ -89,7 +76,6 @@ const Portfolio = () => {
                 </div>
             </div>
           </div>
-
         </div>
       </div>
   )
