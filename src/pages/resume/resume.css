@@ -1,0 +1,107 @@
+#resumePage{
+  display: flex;
+  flex-direction: column;
+  width:42vw;
+  height: max-content;
+  margin-left: 26%;
+  padding: 3em;
+  background-color:rgb(253, 253, 250);
+}
+
+#resumeHeader{
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button{
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#resumeName{
+  font-size: 1.5em;
+}
+
+.containerTitle{
+  font-size: 1.1em;
+  margin-bottom: 1%;
+}
+
+#skillsContainer{
+  margin-bottom: 5%;
+}
+
+.skillsSubCategoryContainer{
+  display: flex;
+  flex-direction: row;
+  margin-bottom:.5vh;
+}
+
+.skillsSubCategoryKey{
+  font-size: .9em;
+  margin-right: .4%;
+  text-decoration-line: underline;
+}
+
+.skillsSubCategoryValue{
+  font-size: .9em;
+}
+
+#experienceContainer {
+  margin-bottom: 5%;
+}
+
+.containerTitle{
+  color: blue;
+}
+
+.experienceSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.experienceDetails{
+  margin-bottom: 2%;
+}
+
+.experienceTitle{
+  font-size: 1em;
+}
+
+.experienceDate{
+  font-size: .9em;
+}
+
+.experienceDescription{
+  font-size: .9em;
+  /* margin-left: 3%; */
+}
+
+.projectDescriptionContainer{
+  display: flex;
+  flex-direction: row;
+  font-size: .9em;
+  margin-left: 3%;
+}
+
+.projectDescriptionTitle{
+  font-size: .9em;
+  margin-right: .2%;
+}
+
+.projectBullets{
+  font-size: .9em;
+  margin-left: 3%;
+}
+
+.education{
+  font-size: .9em;
+}
+
+
