@@ -17,7 +17,7 @@
 .projectContainer {
   display: flex;
   flex-direction: row;
-  margin-bottom: 20%;
+  margin-bottom: 5%;
 }
 
 .portfolioProjectTitle {
@@ -40,6 +40,7 @@
   font-size: 1.1em;
   width: 90%;
   text-align: justify;
+  margin-bottom: 3%;
 }
 
 .projectContainerLinks{
@@ -47,12 +48,12 @@
   flex-direction: column;
 }
 
-#Pic{
-  width: 20vw;
-  height: 20vh;
-  }
-
 #buttons{
   display: flex;
   flex-direction: row;
+}
+
+#starredPic{
+  margin: auto;
+  display: block;
 }

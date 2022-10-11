@@ -20,7 +20,7 @@ const Portfolio = () => {
                 </div>
               <div className="projectContainerLinks">
               <a href="https://github.com/y-sherap/communalcare_frontend" target="_blank" rel="noreferrer">GitHub ↝</a>
-              <a href="https://communalcare.herokuapp.com/" target="_blank" rel="noreferrer">Live Demo ↝</a>
+              <a href="https://communalcareapp.herokuapp.com/" target="_blank" rel="noreferrer">Live Demo ↝</a>
               </div>
             </div>
             <div class="projectContainerRight">
@@ -28,7 +28,7 @@ const Portfolio = () => {
                   <p>Built with the intention of fostering cooperation and solidarity, CommunalCare is a PERN stack application that allows members to freely share resources and services with their community. This non-transactional relationship is rooted in the practice of building new social relations that transcend mainstream social and economic paradigms.</p>
                 </div>
                 <div className="portfolioImage">
-                  {/* insert image here */}
+                  <img id="starredPic" src="https://i.imgur.com/Todg4w9.png" alt="starred"/>
                 </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Portfolio = () => {
                   <p>Starred is a playlist curation PERN stack app built for users interested in discovering new music through a 3rd party API.</p>
                 </div>
                 <div className="portfolioImage">
-                  {/* insert image here */}
+                  <img id="starredPic" src="https://i.imgur.com/JGzqu3U.png" alt="starred"/>
                 </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Portfolio = () => {
                   <p>A MERN stack app that serves as a repository for current Monkeypox vaccination sites in NYC.</p>
                 </div>
                 <div className="portfolioImage">
-                  {/* insert image here */}
+                  <img id="starredPic" src="https://i.imgur.com/Yt2rdVl.png" alt="starred"/>
                 </div>
             </div>
           </div>

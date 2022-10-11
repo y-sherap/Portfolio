@@ -14,7 +14,7 @@ const Resume = () => {
             Front-End Developer in Brooklyn, NY
           </div>
         </div>
-        <div>
+        <div id="downloadResumeLink">
           <a href={ysherap_resume}
               className='btn'
               download
