@@ -20,7 +20,18 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 5%;
+  animation: fadein 3s;
 }
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
 
 .portfolioProjectTitle {
   font-size: 1.5em;
@@ -59,3 +70,15 @@
   margin: auto;
   display: block;
 }
+
+.portfolioImageContainer{
+width: 100%;
+height: 100%;
+justify-content: center;
+text-align: center;
+}
+
+/* .portfolioImage{
+  width: 100%;
+  height: 100%;
+} */

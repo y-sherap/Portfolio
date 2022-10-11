@@ -3,6 +3,16 @@
   padding: 3em;
   display: flex;
   flex-direction: column;
+  animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
 
 #bioContainer{
@@ -28,8 +38,6 @@
   margin-top: -1.9%;
   width: 70%;
 }
-
-
 
 #email{
   margin-top: 0;

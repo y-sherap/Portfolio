@@ -27,8 +27,8 @@ const Portfolio = () => {
                 <div className="projectDescription">
                   <p>Built with the intention of fostering cooperation and solidarity, CommunalCare is a PERN stack application that allows members to freely share resources and services with their community. This non-transactional relationship is rooted in the practice of building new social relations that transcend mainstream social and economic paradigms.</p>
                 </div>
-                <div className="portfolioImage">
-                  <img id="starredPic" src="https://i.imgur.com/Todg4w9.png" alt="starred"/>
+                <div className="portfolioImageContainer">
+                  <img className="portfolioImage" src="https://i.imgur.com/Todg4w9.png" alt="starred"/>
                 </div>
             </div>
           </div>
@@ -49,8 +49,8 @@ const Portfolio = () => {
                 <div className="projectDescription">
                   <p>Starred is a playlist curation PERN stack app built for users interested in discovering new music through a 3rd party API.</p>
                 </div>
-                <div className="portfolioImage">
-                  <img id="starredPic" src="https://i.imgur.com/JGzqu3U.png" alt="starred"/>
+                <div className="portfolioImageContainer">
+                  <img className="portfolioImage" src="https://i.imgur.com/JGzqu3U.png" alt="starred"/>
                 </div>
             </div>
           </div>
@@ -71,8 +71,8 @@ const Portfolio = () => {
                 <div className="projectDescription">
                   <p>A MERN stack app that serves as a repository for current Monkeypox vaccination sites in NYC.</p>
                 </div>
-                <div className="portfolioImage">
-                  <img id="starredPic" src="https://i.imgur.com/Yt2rdVl.png" alt="starred"/>
+                <div className="portfolioImageContainer">
+                  <img iclassNamed="portfolioImage" src="https://i.imgur.com/Yt2rdVl.png" alt="starred"/>
                 </div>
             </div>
           </div>
