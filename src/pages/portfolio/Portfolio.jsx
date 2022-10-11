@@ -42,7 +42,7 @@ const Portfolio = () => {
                 </div>
               <div className="projectContainerLinks">
               <a href="https://github.com/y-sherap/Starred-React" target="_blank" rel="noreferrer">GitHub ↝</a>
-              <a href="https://github.com/y-sherap/communalcare_frontend" target="_blank" rel="noreferrer">Live Demo ↝</a>
+              <a href="https://starred-react.herokuapp.com/" target="_blank" rel="noreferrer">Live Demo ↝</a>
               </div>
             </div>
             <div class="projectContainerRight">
@@ -57,14 +57,14 @@ const Portfolio = () => {
           <div className="projectContainer">
             <div className="projectContainerLeft">
               <div className="portfolioProjectTitle">
-                <p>Monkeypox Vaccination Sites</p>
+                <p>NYC Monkeypox Vaccination Sites</p>
               </div>
               <div id="projectDate">
                   <p>07.2022</p>
                 </div>
               <div className="projectContainerLinks">
-              <a href="https://github.com/y-sherap/communalcare_frontend" target="_blank" rel="noreferrer">GitHub ↝</a>
-              <a href="https://communalcare.herokuapp.com/" target="_blank" rel="noreferrer">Live Demo ↝</a>
+              <a href="https://github.com/y-sherap/NYC_Monkeypox_Vaccine_Sites" target="_blank" rel="noreferrer">GitHub ↝</a>
+              <a href="https://boiling-beach-15847.herokuapp.com/" target="_blank" rel="noreferrer">Live Demo ↝</a>
               </div>
             </div>
             <div class="projectContainerRight">
